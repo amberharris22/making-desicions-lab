@@ -170,3 +170,8 @@ let z = 5;
 // see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
+while(z>0){
+  for (let i = z;i > 0; i--)
+console.log(i)
+z-=1
+}
